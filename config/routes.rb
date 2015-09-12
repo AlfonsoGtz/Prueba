@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  get 'home/index,about,'
-
+  get 'home/index'
   get 'home/video'
 
   # The priority is based upon order of creation: first created -> highest priority.
